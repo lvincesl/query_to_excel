@@ -1,0 +1,16 @@
+{
+    "name": "lvincesl/query_to_excel",
+    "description": "Export your queries results to .xls/.csv files",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "CECILL-C",
+    "authors": [
+        {
+            "name": "Lionel Vinceslas",
+            "email": "lionel.vinceslas@eurower.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
