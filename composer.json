@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "lvincesl\\html\\": "src/lvincesl/query/"
+            "lvincesl\\query\\": "src/lvincesl/query/"
         }
     }
 }
