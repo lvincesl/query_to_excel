@@ -82,7 +82,8 @@ class Query_to_excel
         header("Pragma: no-cache");
         header("Expires: 0");
 
-        for ($i = 0; $i <  $result->columnCount(); $i++) {
+        for ($i = 0; $i <  $result->columnCount(); $i++)
+        {
             echo utf8_decode($result->getColumnMeta($i)['name']) . $sep;
         }
 
@@ -112,7 +113,6 @@ class Query_to_excel
         }
 
         exit(0);
-        }
     }
 }
 
