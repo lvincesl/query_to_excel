@@ -12,5 +12,10 @@
             "email": "lionel.vinceslas@eurower.net"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lvincesl\\html\\": "src/lvincesl/query/"
+        }
+    }
 }
