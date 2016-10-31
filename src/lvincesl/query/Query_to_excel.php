@@ -22,15 +22,13 @@ class Query_to_excel
     var $csv_ouput_filename     = 'output.csv';
     var $excel_ouput_filename   = 'output.xls';
     
-    public function __construct($pdo)
-    {
-        $this->pdo = $pdo;
-    }
 
-    public function __construct($pdo, $query)
+    public function __construct($pdo, $query=null)
     {
         $this->pdo = $pdo;
-        $this->query = $query;
+        if (!is_null($this->query)) {
+            $this->query = $query;
+        }
     }
 
     public function toString()
