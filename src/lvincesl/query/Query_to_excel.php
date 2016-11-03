@@ -26,7 +26,7 @@ class Query_to_excel
     public function __construct($pdo, $query=null)
     {
         $this->pdo = $pdo;
-        if (!is_null($this->query)) {
+        if (!is_null($query)) {
             $this->query = $query;
         }
     }
