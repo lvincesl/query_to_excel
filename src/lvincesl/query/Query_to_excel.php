@@ -73,7 +73,7 @@ class Query_to_excel
 
     public function toCsv()
     {
-        $result = $this->pdo->query($query);
+        $result = $this->pdo->query($this->query);
         $sep    = ";";
       
 
